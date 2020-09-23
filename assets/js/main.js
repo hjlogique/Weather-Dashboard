@@ -12,15 +12,18 @@ var searchInput = "";
 // Retrieve the last searched city from the local storage and populate the information
 $(document).ready(function(){
 
-    searchInput = localStorage.getItem("lastSearchedCity");
-    queryUrlWeather = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
-    queryUrlForecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
-    updateSearchList();
-    updateCurrentWeather();
-    updateFutureForecast();
-    searchInput = ""; // Clear the variables
-    queryUrlWeather = "";
-    queryUrlForecast = "";
+    if(localStorage.getItem("lastSearchedCity")){ // Check if a city name is saved in the local storage
+        
+        searchInput = localStorage.getItem("lastSearchedCity");
+        queryUrlWeather = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
+        queryUrlForecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchInput + "&Appid=" + apiKey + "&units=imperial";
+        updateSearchList();
+        updateCurrentWeather();
+        updateFutureForecast();
+        searchInput = ""; // Clear the variables
+        queryUrlWeather = "";
+        queryUrlForecast = "";
+    }
 });
 
 // Call other functions if the entry is valid 
