@@ -46,7 +46,7 @@ In this assignment I accomplished the followings:
 
 - Created an application which retrieves the weather information from
   the [OpenWeather API](https://openweathermap.org/api), using jQuery and Ajax.
-- Analyzed the retrieved objects and thier properties to get the
+- Analyzed the retrieved objects and thier parameters to get the
   right information.
 - Created the user interface dynamitically through jQuery using the
   Bootstrap components.
