@@ -92,7 +92,7 @@ function updateCurrentWeather() {
                 method: "GET"
             }).then(function (response) {
 
-                //$("#currentIndex").empty();
+                $("#currentIndex").empty();
 
                 // Query and display UV index
                 currentWeather.append('<p id="currentIndex">UV Index: <span style="padding:5px; margin-left: 3px;" class="badge badge-danger" id="indexColor">' + response.value + '</span></p>');
