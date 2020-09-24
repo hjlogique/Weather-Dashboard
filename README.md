@@ -45,15 +45,10 @@ application later, the weather information of the last searched
 city is display automatically.
 
 ```
->>>>>>> 317b6f8f4c5896614d339b74ddd32f4255a9e186
 [Link to the Weather Dashboard Application](https://hjlogique.github.io/gw_bc_hw6/)
 <br/><br/>
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashbord_app.png)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 317b6f8f4c5896614d339b74ddd32f4255a9e186
 ```
 In this assignment I accomplished the followings:
 
