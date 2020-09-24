@@ -32,17 +32,10 @@ and the humidity of one of the next five days.
 Users can select each of the city buttons on the left, and the
 related weather information are updated at any time. This 
 application saves users's last searched city to the local 
-<<<<<<< HEAD
+
 storage. Once users reload the page or visit the web application 
 later, the weather information of the last searched city is 
 display automatically.
-
-```
-
-=======
-storage. Once users reload the page or visit the web 
-application later, the weather information of the last searched 
-city is display automatically.
 
 ```
 [Link to the Weather Dashboard Application](https://hjlogique.github.io/gw_bc_hw6/)
@@ -64,9 +57,6 @@ In this assignment I accomplished the followings:
   the found issues.
 - Uploaded the updated files to my personal GitHub repository, and
   made the URLs to my deployed application, and my GitHub repository available.
-
-
-
 
 
 ```
