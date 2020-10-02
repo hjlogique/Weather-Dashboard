@@ -84,7 +84,7 @@ function updateCurrentWeather() {
             currentWeather.append('<p id="currentWind">Wind Speed: ' + response.main.wind + '</p>');
 
             // Create UV Index URL based on the response from the first query
-            var uvUrl = `http://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${response.coord.lat}&lon=${response.coord.lon}`;
+            var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${response.coord.lat}&lon=${response.coord.lon}`;
 
             // Perform an AJAX request for UV index
             $.ajax({
