@@ -81,9 +81,8 @@ function updateCurrentWeather() {
             currentWeather.append('<h4 id="currentCity" style="float: left;">' + response.name + ' (' + moment().format('l') + ')' + '</h4><img src="https://openweathermap.org/img/w/' + response.weather[0].icon + '.png" style="margin-top: -10px;"><br><br>');
             currentWeather.append('<p id="currentTemp">Temprature: ' + response.main.temp + '</p>');
             currentWeather.append('<p id="currentHumid">Humidity: ' + response.main.humidity + '%</p>');
-            currentWeather.append('<p id="currentWind">Wind Speed: ' + response.main.wind.speed + '</p>');
-            console.log(response.main);
-            console.log(response);
+            currentWeather.append('<p id="currentWind">Wind Speed: ' + response.wind.speed + '</p>');
+          
             // Create UV Index URL based on the response from the first query
             var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${response.coord.lat}&lon=${response.coord.lon}`;
 
