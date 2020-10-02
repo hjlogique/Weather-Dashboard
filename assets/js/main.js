@@ -83,7 +83,7 @@ function updateCurrentWeather() {
             currentWeather.append('<p id="currentHumid">Humidity: ' + response.main.humidity + '%</p>');
             currentWeather.append('<p id="currentWind">Wind Speed: ' + response.main.wind + '</p>');
             console.log(response.main);
-            console.log(response.main.wind);
+            console.log(response);
             // Create UV Index URL based on the response from the first query
             var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${response.coord.lat}&lon=${response.coord.lon}`;
 
