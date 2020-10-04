@@ -39,8 +39,9 @@ later, the weather information of the last searched city is
 display automatically.
 
 ```
-![View Work Day Scheduler application screenshot](/screenshot/weather_dashbord_app.png)
-
+![View Work Day Scheduler application screenshot](/screenshot/weather_dashbord1.png)
+<br/><br/>
+![View Work Day Scheduler application screenshot](/screenshot/weather_dashbor2.png)
 ```
 In this assignment I accomplished the followings:
 
