@@ -1,12 +1,10 @@
-# gw_bc_hw6
 
 ```
 GW CODING BOOTCAMP
-HOMEWORK 6: Server-Side APIs: Weather Dashboard  
-Due date: Wednesday, 09/23/20 Midnight Eastern Time (ET)
-Student: HENRY JEAN LOGIQUE
-Subject: Weather Dashboard Application
-
+Application: Weather Dashboard (Server-Side APIs)
+By HENRY JEAN LOGIQUE
+Used technologies: HTML, CSS, JavaScript, JQuery, Ajax, 
+OpenWeather API, MomentJs, Bootstrap framework 
 ```
 ```
 Weather Dashboard Application retrieves the current weather 
