@@ -6,6 +6,9 @@ By HENRY JEAN LOGIQUE
 Used technologies: HTML, CSS, JavaScript, JQuery, Ajax, 
 OpenWeather API, MomentJs, Bootstrap framework 
 ```
+[Link to my GitHub Profile](https://github.com/hjlogique)
+<br/>
+[Link to the Weather Dashboard Application](https://hjlogique.github.io/Weather-Dashboard/)
 ```
 Weather Dashboard Application retrieves the current weather 
 and the next five days' forecast from another application's API
@@ -36,8 +39,6 @@ later, the weather information of the last searched city is
 display automatically.
 
 ```
-[Link to the Weather Dashboard Application](https://hjlogique.github.io/gw_bc_hw6/)
-<br/><br/>
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashbord_app.png)
 
 ```
