@@ -43,7 +43,8 @@ Note: The first screenshot displays the application prior to
 any entry for a city name. In the second screenshot five cities
 were added to the list. The last screenshot displays the 
 application once it was reloaded. The application now displays
-the last entered city from the last query.
+the weather information of the last entered city from the last 
+query.
 
 ```
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashboard1.png)
