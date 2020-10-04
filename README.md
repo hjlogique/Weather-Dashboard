@@ -5,6 +5,7 @@ Application: Weather Dashboard (Server-Side APIs)
 By HENRY JEAN LOGIQUE
 Used technologies: HTML, CSS, JavaScript, JQuery, Ajax, 
 OpenWeather API, MomentJs, Bootstrap framework 
+License: MIT
 ```
 [Link to my GitHub Profile](https://github.com/hjlogique)
 <br/>
