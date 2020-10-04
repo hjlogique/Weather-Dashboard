@@ -51,7 +51,7 @@ the last entered city from the last query.
 <br/><br/>
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashboard3.png)
 ```
-In this assignment I accomplished the followings:
+I accomplished the followings:
 
 - Created an application which retrieves the weather information from
   the [OpenWeather API](https://openweathermap.org/api), using jQuery and Ajax.
