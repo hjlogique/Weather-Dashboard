@@ -38,10 +38,18 @@ storage. Once users reload the page or visit the web application
 later, the weather information of the last searched city is 
 display automatically.
 
+Note: The first screenshot displays the application prior to 
+any entry for a city. In the second screenshot five cities
+were added to the list. The last screenshot displays the 
+application once it was reloaded. The application now displays
+the last entered city from the last query.
+
 ```
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashboard1.png)
 <br/><br/>
 ![View Work Day Scheduler application screenshot](/screenshot/weather_dashboard2.png)
+<br/><br/>
+![View Work Day Scheduler application screenshot](/screenshot/weather_dashboard3.png)
 ```
 In this assignment I accomplished the followings:
 
